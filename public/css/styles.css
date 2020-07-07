@@ -1,0 +1,348 @@
+body {
+  font-family: 'Marrieweather', serif;
+  font-size: 15px;
+  line-height: 1.64;
+}
+
+p {
+  color: #1f4068;
+  margin: 10px 0 10px 0;
+  font-family: 'Open sans', sans-serif;
+}
+
+strong {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+hr {
+  border-top: 2px dotted #00a1ab;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+h1 {
+  margin: 50px 0 0 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  color: #07031a;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 54px;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 500;
+  color: #07031a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #07031a;
+}
+
+h4 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h5 {
+  font-family: 'Open sans', sans-serif;
+  color: #727878;
+  font-size: 18px;
+  text-decoration: underline;
+}
+button{
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+/* Container */
+.container {
+  max-width: 1180px;
+  padding: 40px 180px;
+}
+
+/* Sections */
+.white-section {
+  background-color: #f4f6ff;
+  color: black;
+}
+
+.colored-section {
+  background-color: #07031a;
+  color: white;
+}
+
+/* Colored Section */
+.footer-h2 {
+  font-size: 54px;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leadFooter {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Paragraph */
+.lead {
+  text-align: center;
+  color: #727878;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* Home Page */
+
+.jumbotron .container{
+  position: relative;
+  top: 28%;
+  z-index: 4;
+  text-align: center;
+}
+
+.overlay{
+  z-index: 2;
+  background-image: url(../Images/mountain.jpg);
+  background-size: cover;
+  opacity: 0.50;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.jumbotron .scroll-down{
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  z-index: 6;
+  text-align: center;
+  background-color: black;
+  display: block;
+  height: 80px;
+  width: 110px;
+}
+
+.jumbotron .scroll-down .glyphicon {
+  color: white;
+  font-size: 30px;
+  padding-right: 2px;
+  padding-top: 20px;
+  animation-name: wiggle;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.home-intro {
+  display: inline;
+}
+
+.home-para {
+  text-align: center;
+  color: #07031a;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* navbar */
+
+
+a {
+  padding: 30px 15px 15px 15px;
+  width: 110px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.navbar{
+  position: absolute;
+  top: 100%;
+  background-color: black;
+  right: 5%;
+  width: 110px;
+  z-index: 999;
+}
+
+.navbar .navebar-collapse{
+  padding: 0;
+  max-height: none;
+}
+
+.navbar .navbar-nav{
+  float: none;
+}
+
+.navbar-nav{
+  margin: 0;
+}
+
+.navbar .nav > li{
+  display: block;
+  float: none;
+  height: 80px;
+}
+
+.navbar-default .navbar-nav  > a, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav  > a:focus{
+  background-color: #5d1451;
+  color: white;
+}
+
+.active ,a:hover{
+  background-color: #5d1451;
+  color: white;
+}
+
+
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  font-family:'Open sans', sans-serif ;
+  padding-top: 30px;
+}
+
+ .navbar{
+  position: fixed;
+  top: 60px;
+
+}
+
+/* .nav-item {
+  padding: 30px 15px;
+  width: 80px;
+  height: 35px;
+} */
+
+.nav-link {
+  padding: 30px 15px;
+    font-weight: 600;
+    color: white;
+  /* width: 80px; */
+  /* height: 35px; */
+}
+
+/* Details */
+.row {
+  margin: 2px 0 0 0;
+}
+
+.nams-img {
+  border-style: solid;
+  border-width: thick;
+  border-radius: 100%;
+  border-color: #a0c1b8;
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+  padding: 0;
+}
+
+/* Personality */
+.personality {
+  text-align: center;
+  width: 900px;
+  position: relative;
+  right: 30px;
+}
+
+/* Feature Icons */
+.feature-icons {
+  color: #01a9b4;
+  /* margin-bottom: 1rem; */
+  vertical-align: top;
+}
+
+.feature-icons:hover {
+  color: #a6dcef;
+}
+
+.features-column {
+  padding: 1.5%;
+}
+
+/* Footer ID'S */
+#footer {
+  text-align: center;
+  background-color: #07031a;
+  color: white;
+}
+
+.form-control {
+  position: relative;
+  height: auto;
+  font-size: 16px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.text-nameemail {
+  width: 222px;
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+
+.textarea{
+  position: relative;
+  left: 20px;
+  bottom: 30px;
+}
+
+/* Skills */
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-score {
+  float: right;
+  /* transition: all 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
+}
+
+/* .skill-score:hover{
+  width: 12px;
+} */
+.filled {
+  color: #01a9b4;
+}
+
+.score-title {
+  display: inline-block;
+  width: 60%;
+}
